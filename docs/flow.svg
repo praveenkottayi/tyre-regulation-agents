@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#475569"/>
+    </marker>
+    <marker id="arrowGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/>
+    </marker>
+    <style>
+      .title { font-size: 24px; font-weight: 700; fill: #0f172a; }
+      .sub { font-size: 14px; fill: #475569; }
+      .lane { font-size: 15px; font-weight: 700; fill: #0f172a; }
+      .node { font-size: 14px; font-weight: 600; fill: #0f172a; }
+      .small { font-size: 12px; fill: #334155; }
+      .tiny { font-size: 11px; fill: #64748b; }
+      .edge { stroke: #475569; stroke-width: 1.6; fill: none; marker-end: url(#arrow); }
+      .edgeFuture { stroke: #94a3b8; stroke-width: 1.6; fill: none; stroke-dasharray: 6 5; marker-end: url(#arrowGray); }
+      .rules { fill: #dbeafe; stroke: #2563eb; stroke-width: 1.5; }
+      .llm { fill: #ede9fe; stroke: #7c3aed; stroke-width: 1.5; }
+      .human { fill: #fef3c7; stroke: #d97706; stroke-width: 1.5; }
+      .data { fill: #dcfce7; stroke: #16a34a; stroke-width: 1.5; }
+      .future { fill: #f8fafc; stroke: #94a3b8; stroke-width: 1.5; stroke-dasharray: 6 5; }
+      .source { fill: #f1f5f9; stroke: #475569; stroke-width: 1.5; }
+      .laneBox { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.5; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="860" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="40" y="44" class="title">regpilot: how a tyre regulation flows from the EU to product impact</text>
+  <text x="40" y="68" class="sub">Rules handle the legal numbers and the ratings. An LLM only suggests readings of unusual wording. People decide.</text>
+
+  <!-- Source -->
+  <rect x="40" y="100" width="250" height="120" rx="10" class="source"/>
+  <text x="58" y="128" class="node">EU Publications Office</text>
+  <text x="58" y="150" class="small">official API (SPARQL + Cellar)</text>
+  <text x="58" y="172" class="small">UN R117 versions:</text>
+  <text x="58" y="192" class="small">2008 · 2011 · 2016 · 2025</text>
+  <text x="58" y="210" class="tiny">EN / DE / FR … (24 languages)</text>
+
+  <!-- Agent 1 lane -->
+  <rect x="320" y="90" width="850" height="290" rx="12" class="laneBox"/>
+  <text x="340" y="116" class="lane">Agent 1 · Watcher  (LangGraph graph)</text>
+
+  <!-- row 1 -->
+  <rect x="340" y="134" width="140" height="56" rx="8" class="rules"/>
+  <text x="410" y="158" text-anchor="middle" class="node">discover</text>
+  <text x="410" y="177" text-anchor="middle" class="tiny">which versions exist?</text>
+
+  <rect x="505" y="134" width="140" height="56" rx="8" class="rules"/>
+  <text x="575" y="158" text-anchor="middle" class="node">check known</text>
+  <text x="575" y="177" text-anchor="middle" class="tiny">already stored? → stop</text>
+
+  <rect x="670" y="134" width="140" height="56" rx="8" class="rules"/>
+  <text x="740" y="158" text-anchor="middle" class="node">fetch</text>
+  <text x="740" y="177" text-anchor="middle" class="tiny">same content? → stop</text>
+
+  <rect x="835" y="134" width="140" height="56" rx="8" class="rules"/>
+  <text x="905" y="158" text-anchor="middle" class="node">parse</text>
+  <text x="905" y="177" text-anchor="middle" class="tiny">clauses · tables</text>
+
+  <rect x="1000" y="134" width="150" height="56" rx="8" class="rules"/>
+  <text x="1075" y="158" text-anchor="middle" class="node">store</text>
+  <text x="1075" y="177" text-anchor="middle" class="tiny">version + raw file</text>
+
+  <path d="M290,160 L338,160" class="edge"/>
+  <path d="M480,162 L503,162" class="edge"/>
+  <path d="M645,162 L668,162" class="edge"/>
+  <path d="M810,162 L833,162" class="edge"/>
+  <path d="M975,162 L998,162" class="edge"/>
+
+  <!-- row 2 -->
+  <rect x="990" y="250" width="160" height="66" rx="8" class="rules"/>
+  <text x="1070" y="275" text-anchor="middle" class="node">extract (rules)</text>
+  <text x="1070" y="294" text-anchor="middle" class="tiny">limits · stages · dates</text>
+  <text x="1070" y="308" text-anchor="middle" class="tiny">conditions → criteria</text>
+  <path d="M1075,190 L1075,248" class="edge"/>
+
+  <rect x="700" y="250" width="200" height="66" rx="8" class="llm"/>
+  <text x="800" y="275" text-anchor="middle" class="node">propose criteria (LLM)</text>
+  <text x="800" y="294" text-anchor="middle" class="tiny">LangChain · Ollama gemma4</text>
+  <text x="800" y="308" text-anchor="middle" class="tiny">only for unread wording</text>
+  <path d="M988,272 L902,272" class="edge"/>
+  <text x="945" y="264" text-anchor="middle" class="tiny">unread wording?</text>
+
+  <rect x="400" y="250" width="180" height="66" rx="8" class="rules"/>
+  <text x="490" y="275" text-anchor="middle" class="node">emit event</text>
+  <text x="490" y="294" text-anchor="middle" class="tiny">new_version · updated</text>
+  <text x="490" y="308" text-anchor="middle" class="tiny">backfilled (history)</text>
+  <path d="M698,283 L582,283" class="edge"/>
+  <path d="M1070,316 C1070,362 600,362 520,318" class="edge"/>
+  <text x="790" y="340" text-anchor="middle" class="tiny">all wording understood</text>
+
+  <!-- watcher.db -->
+  <g>
+    <rect x="360" y="425" width="360" height="160" rx="10" class="data"/>
+    <ellipse cx="540" cy="425" rx="180" ry="14" class="data"/>
+    <text x="540" y="462" text-anchor="middle" class="node">watcher.db</text>
+    <text x="380" y="488" class="small">documents · one row per version (year)</text>
+    <text x="380" y="508" class="small">requirements · per class C1/C2/C3 + stage</text>
+    <text x="380" y="528" class="small">limits · value + wording + criteria</text>
+    <text x="380" y="548" class="small">events · signals for Agent 2</text>
+    <text x="380" y="568" class="small">criteria_reviews · LLM proposals + decisions</text>
+  </g>
+  <path d="M470,318 L470,409" class="edge"/>
+  <text x="480" y="400" class="tiny">versions · requirements · events</text>
+
+  <!-- Human review -->
+  <rect x="800" y="440" width="370" height="140" rx="10" class="human"/>
+  <text x="820" y="468" class="node">Human review (you)</text>
+  <text x="820" y="492" class="small">regpilot criteria list</text>
+  <text x="820" y="512" class="small">approve · correct · reject  (name logged)</text>
+  <text x="820" y="536" class="small">approved → re-extract with rules</text>
+  <text x="820" y="556" class="small">→ regulation.updated for Agent 2</text>
+  <text x="820" y="574" class="tiny">pending / rejected → row stays "unknown"</text>
+  <path d="M860,316 L960,438" class="edge"/>
+  <text x="935" y="380" class="tiny">proposals</text>
+  <path d="M798,520 L722,520" class="edge"/>
+
+  <!-- Agent 2 lane -->
+  <rect x="320" y="630" width="850" height="170" rx="12" class="laneBox"/>
+  <text x="340" y="656" class="lane">Agent 2 · Reg-Impact  (LangGraph graph)</text>
+
+  <rect x="340" y="676" width="150" height="80" rx="8" class="rules"/>
+  <text x="415" y="702" text-anchor="middle" class="node">load inputs</text>
+  <text x="415" y="722" text-anchor="middle" class="tiny">WatcherReader</text>
+  <text x="415" y="737" text-anchor="middle" class="tiny">(read-only) + products</text>
+  <path d="M435,587 L435,674" class="edge"/>
+  <text x="445" y="620" class="tiny">new_version / updated events</text>
+
+  <rect x="510" y="676" width="140" height="80" rx="8" class="rules"/>
+  <text x="580" y="702" text-anchor="middle" class="node">judge markets</text>
+  <text x="580" y="722" text-anchor="middle" class="tiny">EU = applies</text>
+  <text x="580" y="737" text-anchor="middle" class="tiny">others = unknown</text>
+  <path d="M490,716 L508,716" class="edge"/>
+
+  <rect x="670" y="676" width="170" height="80" rx="8" class="rules"/>
+  <text x="755" y="702" text-anchor="middle" class="node">rate each size</text>
+  <text x="755" y="720" text-anchor="middle" class="tiny">limit row · stage timing</text>
+  <text x="755" y="734" text-anchor="middle" class="tiny">valid test · pass / fail</text>
+  <text x="755" y="748" text-anchor="middle" class="tiny">or "not proven"</text>
+  <path d="M650,716 L668,716" class="edge"/>
+
+  <rect x="860" y="676" width="140" height="80" rx="8" class="rules"/>
+  <text x="930" y="702" text-anchor="middle" class="node">proposal</text>
+  <text x="930" y="722" text-anchor="middle" class="tiny">impact.db · report.md</text>
+  <text x="930" y="737" text-anchor="middle" class="tiny">impact.proposed</text>
+  <path d="M840,716 L858,716" class="edge"/>
+
+  <rect x="1020" y="676" width="135" height="80" rx="8" class="human"/>
+  <text x="1087" y="702" text-anchor="middle" class="node">Gate 1</text>
+  <text x="1087" y="722" text-anchor="middle" class="tiny">approve · edit</text>
+  <text x="1087" y="737" text-anchor="middle" class="tiny">reject (audited)</text>
+  <path d="M1000,716 L1018,716" class="edge"/>
+
+  <!-- Products -->
+  <rect x="40" y="640" width="250" height="130" rx="10" class="source"/>
+  <text x="58" y="668" class="node">Product catalogue (CSV)</text>
+  <text x="58" y="692" class="small">Michelin · Bridgestone</text>
+  <text x="58" y="712" class="small">ranges · sizes · test results</text>
+  <text x="58" y="732" class="small">C1 · C2 · C3</text>
+  <text x="58" y="756" class="tiny">sample data is synthetic</text>
+  <path d="M290,745 C420,790 640,790 740,758" class="edge"/>
+  <text x="430" y="790" class="tiny">sizes · attributes · test results</text>
+
+  <!-- Legend -->
+  <text x="40" y="282" class="lane">Legend</text>
+  <rect x="40" y="296" width="22" height="16" rx="3" class="rules"/><text x="72" y="309" class="small">rules (exact, tested)</text>
+  <rect x="40" y="322" width="22" height="16" rx="3" class="llm"/><text x="72" y="335" class="small">LLM (suggests only)</text>
+  <rect x="40" y="348" width="22" height="16" rx="3" class="human"/><text x="72" y="361" class="small">human decision</text>
+  <rect x="40" y="374" width="22" height="16" rx="3" class="data"/><text x="72" y="387" class="small">database</text>
+
+  <text x="40" y="835" class="tiny">Source texts: EUR-Lex / Official Journal of the European Union, © European Union.</text>
+</svg>

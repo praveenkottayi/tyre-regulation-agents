@@ -1,0 +1,1442 @@
+{
+ "id": "32bc8f2f45dc",
+ "regulation": "R117",
+ "celex": "42025X1453",
+ "document_id": 1,
+ "trigger": "65ba33870cfd6e8495f3cef7",
+ "as_of": "2026-10-22",
+ "created_at": "2026-10-21T18:44:50.906547Z",
+ "applicability": [
+  {
+   "regulation": "R117",
+   "market": "EU",
+   "status": "applies",
+   "basis": "published in the EU Official Journal: applies in the EU"
+  },
+  {
+   "regulation": "R117",
+   "market": "IN",
+   "status": "unknown",
+   "basis": "no rule establishes whether R117 applies in IN; not assumed (needs a source or a human decision)"
+  }
+ ],
+ "impacts": [
+  {
+   "size_id": "S01",
+   "brand": "Michelin",
+   "range_name": "Primacy 5",
+   "designation": "205/55 R16 91V",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.1:C1:stage-2",
+   "metric": "rolling_sound_emission",
+   "unit": "dB(A)",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 71.0,
+   "limit_conditions": [
+    "Over 185 up to 245"
+   ],
+   "adjustments": [],
+   "test_value": 70.0,
+   "test_date": "2025-03-10",
+   "verdict": "pass",
+   "margin": 1.0,
+   "reason": "70 <= 71 dB(A)",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S01",
+   "brand": "Michelin",
+   "range_name": "Primacy 5",
+   "designation": "205/55 R16 91V",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.2:C1:stage-2",
+   "metric": "wet_grip_index",
+   "unit": "G",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": "2024-07-07",
+   "all_from": "2026-07-07",
+   "requirement_change": null,
+   "comparator": ">=",
+   "limit": 1.2,
+   "limit_conditions": [
+    "Normal tyre"
+   ],
+   "adjustments": [],
+   "test_value": 1.27,
+   "test_date": "2025-03-10",
+   "verdict": "pass",
+   "margin": 0.07,
+   "reason": "1.27 >= 1.2 G",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S01",
+   "brand": "Michelin",
+   "range_name": "Primacy 5",
+   "designation": "205/55 R16 91V",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.3:C1:stage-3",
+   "metric": "rolling_resistance_coefficient",
+   "unit": "N/kN",
+   "stage": "3",
+   "timing": "in_force",
+   "new_from": "2024-07-07",
+   "all_from": "2026-07-07",
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 9.0,
+   "limit_conditions": [
+    "load capacity index ≥ 87",
+    "Tyres other than Run Flat Tyres or Extended Mobility Tyres"
+   ],
+   "adjustments": [],
+   "test_value": 8.4,
+   "test_date": "2025-03-10",
+   "verdict": "pass",
+   "margin": 0.6,
+   "reason": "8.4 <= 9 N/kN",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S02",
+   "brand": "Michelin",
+   "range_name": "Primacy 5",
+   "designation": "185/65 R15 86H",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.1:C1:stage-2",
+   "metric": "rolling_sound_emission",
+   "unit": "dB(A)",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 70.0,
+   "limit_conditions": [
+    "185 and lower"
+   ],
+   "adjustments": [],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S02",
+   "brand": "Michelin",
+   "range_name": "Primacy 5",
+   "designation": "185/65 R15 86H",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.2:C1:stage-2",
+   "metric": "wet_grip_index",
+   "unit": "G",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": "2024-07-07",
+   "all_from": "2026-07-07",
+   "requirement_change": null,
+   "comparator": ">=",
+   "limit": 1.2,
+   "limit_conditions": [
+    "Normal tyre"
+   ],
+   "adjustments": [],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S02",
+   "brand": "Michelin",
+   "range_name": "Primacy 5",
+   "designation": "185/65 R15 86H",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.3:C1:stage-3",
+   "metric": "rolling_resistance_coefficient",
+   "unit": "N/kN",
+   "stage": "3",
+   "timing": "in_force",
+   "new_from": "2024-07-07",
+   "all_from": "2026-07-07",
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 10.0,
+   "limit_conditions": [
+    "load capacity index < 87"
+   ],
+   "adjustments": [],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "expired_test",
+   "margin": null,
+   "reason": "all test records have expired",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S03",
+   "brand": "Michelin",
+   "range_name": "Pilot Sport 5",
+   "designation": "245/35 ZR20 95Y XL",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.1:C1:stage-2",
+   "metric": "rolling_sound_emission",
+   "unit": "dB(A)",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 72.0,
+   "limit_conditions": [
+    "Over 185 up to 245"
+   ],
+   "adjustments": [
+    "+1 dB(A) for snow tyres that are classified as tyre for use in severe snow conditions, extra load tyres or reinforced tyres, or any combination of these classifications"
+   ],
+   "test_value": 72.0,
+   "test_date": "2025-01-20",
+   "verdict": "pass",
+   "margin": 0.0,
+   "reason": "72 <= 72 dB(A)",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S03",
+   "brand": "Michelin",
+   "range_name": "Pilot Sport 5",
+   "designation": "245/35 ZR20 95Y XL",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.2:C1:stage-2",
+   "metric": "wet_grip_index",
+   "unit": "G",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": "2024-07-07",
+   "all_from": "2026-07-07",
+   "requirement_change": null,
+   "comparator": ">=",
+   "limit": 1.2,
+   "limit_conditions": [
+    "Normal tyre"
+   ],
+   "adjustments": [],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S03",
+   "brand": "Michelin",
+   "range_name": "Pilot Sport 5",
+   "designation": "245/35 ZR20 95Y XL",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.3:C1:stage-3",
+   "metric": "rolling_resistance_coefficient",
+   "unit": "N/kN",
+   "stage": "3",
+   "timing": "in_force",
+   "new_from": "2024-07-07",
+   "all_from": "2026-07-07",
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 10.0,
+   "limit_conditions": [
+    "load capacity index ≥ 87",
+    "Tyres with a nominal aspect ratio ≤ 40 and suitable for speeds ≥ 300 km/h"
+   ],
+   "adjustments": [],
+   "test_value": 9.8,
+   "test_date": "2025-01-20",
+   "verdict": "pass",
+   "margin": 0.2,
+   "reason": "9.8 <= 10 N/kN",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S04",
+   "brand": "Michelin",
+   "range_name": "CrossClimate 2",
+   "designation": "205/55 R16 94V XL",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.1:C1:stage-2",
+   "metric": "rolling_sound_emission",
+   "unit": "dB(A)",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 72.0,
+   "limit_conditions": [
+    "Over 185 up to 245"
+   ],
+   "adjustments": [
+    "+1 dB(A) for snow tyres that are classified as tyre for use in severe snow conditions, extra load tyres or reinforced tyres, or any combination of these classifications"
+   ],
+   "test_value": 71.0,
+   "test_date": "2025-02-14",
+   "verdict": "pass",
+   "margin": 1.0,
+   "reason": "71 <= 72 dB(A)",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S04",
+   "brand": "Michelin",
+   "range_name": "CrossClimate 2",
+   "designation": "205/55 R16 94V XL",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.2:C1:stage-2",
+   "metric": "wet_grip_index",
+   "unit": "G",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": "2024-07-07",
+   "all_from": "2026-07-07",
+   "requirement_change": null,
+   "comparator": ">=",
+   "limit": 1.1,
+   "limit_conditions": [
+    "Snow tyre that is classified as tyre for use in severe snow conditions",
+    "Speed category greater than 160 km/h"
+   ],
+   "adjustments": [],
+   "test_value": 1.19,
+   "test_date": "2025-02-14",
+   "verdict": "pass",
+   "margin": 0.09,
+   "reason": "1.19 >= 1.1 G",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S04",
+   "brand": "Michelin",
+   "range_name": "CrossClimate 2",
+   "designation": "205/55 R16 94V XL",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.3:C1:stage-3",
+   "metric": "rolling_resistance_coefficient",
+   "unit": "N/kN",
+   "stage": "3",
+   "timing": "in_force",
+   "new_from": "2024-07-07",
+   "all_from": "2026-07-07",
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 10.0,
+   "limit_conditions": [
+    "load capacity index ≥ 87",
+    "Tyres other than Run Flat Tyres or Extended Mobility Tyres"
+   ],
+   "adjustments": [
+    "+1 N/kN for snow tyre that is classified as tyre for use in severe snow conditions"
+   ],
+   "test_value": 9.7,
+   "test_date": "2025-02-14",
+   "verdict": "pass",
+   "margin": 0.3,
+   "reason": "9.7 <= 10 N/kN",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S05",
+   "brand": "Michelin",
+   "range_name": "Agilis 3",
+   "designation": "215/65 R16C 109/107T",
+   "tyre_class": "C2",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.1:C2:stage-2",
+   "metric": "rolling_sound_emission",
+   "unit": "dB(A)",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 72.0,
+   "limit_conditions": [
+    "Normal tyre",
+    "Other"
+   ],
+   "adjustments": [],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "invalid_test",
+   "margin": null,
+   "reason": "all test records are marked invalid",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S05",
+   "brand": "Michelin",
+   "range_name": "Agilis 3",
+   "designation": "215/65 R16C 109/107T",
+   "tyre_class": "C2",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.2:C2:stage-1",
+   "metric": "wet_grip_index",
+   "unit": "G",
+   "stage": "1",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": ">=",
+   "limit": 0.95,
+   "limit_conditions": [
+    "Normal tyre",
+    "Other"
+   ],
+   "adjustments": [],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S05",
+   "brand": "Michelin",
+   "range_name": "Agilis 3",
+   "designation": "215/65 R16C 109/107T",
+   "tyre_class": "C2",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.2:C2:stage-2",
+   "metric": "wet_grip_index",
+   "unit": "G",
+   "stage": "2",
+   "timing": "new_approvals_only",
+   "new_from": "2024-07-07",
+   "all_from": "2028-09-01",
+   "requirement_change": null,
+   "comparator": ">=",
+   "limit": 1.1,
+   "limit_conditions": [
+    "Normal tyre",
+    "Other"
+   ],
+   "adjustments": [],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S05",
+   "brand": "Michelin",
+   "range_name": "Agilis 3",
+   "designation": "215/65 R16C 109/107T",
+   "tyre_class": "C2",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.3:C2:stage-2",
+   "metric": "rolling_resistance_coefficient",
+   "unit": "N/kN",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 9.0,
+   "limit_conditions": [],
+   "adjustments": [],
+   "test_value": 8.1,
+   "test_date": "2024-09-30",
+   "verdict": "pass",
+   "margin": 0.9,
+   "reason": "8.1 <= 9 N/kN",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S05",
+   "brand": "Michelin",
+   "range_name": "Agilis 3",
+   "designation": "215/65 R16C 109/107T",
+   "tyre_class": "C2",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.3:C2:stage-3",
+   "metric": "rolling_resistance_coefficient",
+   "unit": "N/kN",
+   "stage": "3",
+   "timing": "new_approvals_only",
+   "new_from": "2024-07-07",
+   "all_from": "2028-09-01",
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 8.5,
+   "limit_conditions": [
+    "Tyres other than Traction tyres"
+   ],
+   "adjustments": [],
+   "test_value": 8.1,
+   "test_date": "2024-09-30",
+   "verdict": "pass",
+   "margin": 0.4,
+   "reason": "8.1 <= 8.5 N/kN",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S06",
+   "brand": "Michelin",
+   "range_name": "X Multi Z2",
+   "designation": "315/80 R22.5 156/150L",
+   "tyre_class": "C3",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.1:C3:stage-2",
+   "metric": "rolling_sound_emission",
+   "unit": "dB(A)",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 73.0,
+   "limit_conditions": [
+    "Normal tyre",
+    "Other"
+   ],
+   "adjustments": [],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S06",
+   "brand": "Michelin",
+   "range_name": "X Multi Z2",
+   "designation": "315/80 R22.5 156/150L",
+   "tyre_class": "C3",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.2:C3:stage-1",
+   "metric": "wet_grip_index",
+   "unit": "G",
+   "stage": "1",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": ">=",
+   "limit": 0.8,
+   "limit_conditions": [
+    "Normal tyre",
+    "Other"
+   ],
+   "adjustments": [],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S06",
+   "brand": "Michelin",
+   "range_name": "X Multi Z2",
+   "designation": "315/80 R22.5 156/150L",
+   "tyre_class": "C3",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.2:C3:stage-2",
+   "metric": "wet_grip_index",
+   "unit": "G",
+   "stage": "2",
+   "timing": "new_approvals_only",
+   "new_from": "2024-07-07",
+   "all_from": "2028-09-01",
+   "requirement_change": null,
+   "comparator": ">=",
+   "limit": 0.95,
+   "limit_conditions": [
+    "Normal tyre",
+    "Other"
+   ],
+   "adjustments": [],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S06",
+   "brand": "Michelin",
+   "range_name": "X Multi Z2",
+   "designation": "315/80 R22.5 156/150L",
+   "tyre_class": "C3",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.3:C3:stage-2",
+   "metric": "rolling_resistance_coefficient",
+   "unit": "N/kN",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 6.5,
+   "limit_conditions": [],
+   "adjustments": [],
+   "test_value": 5.8,
+   "test_date": "2024-06-12",
+   "verdict": "pass",
+   "margin": 0.7,
+   "reason": "5.8 <= 6.5 N/kN",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S06",
+   "brand": "Michelin",
+   "range_name": "X Multi Z2",
+   "designation": "315/80 R22.5 156/150L",
+   "tyre_class": "C3",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.3:C3:stage-3",
+   "metric": "rolling_resistance_coefficient",
+   "unit": "N/kN",
+   "stage": "3",
+   "timing": "new_approvals_only",
+   "new_from": "2024-07-07",
+   "all_from": "2028-09-01",
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 6.0,
+   "limit_conditions": [
+    "Tyres other than tyres marked with “C”, “CP” or “LT”"
+   ],
+   "adjustments": [],
+   "test_value": 5.8,
+   "test_date": "2024-06-12",
+   "verdict": "pass",
+   "margin": 0.2,
+   "reason": "5.8 <= 6 N/kN",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S07",
+   "brand": "Bridgestone",
+   "range_name": "Turanza 6",
+   "designation": "225/45 R17 94W XL",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.1:C1:stage-2",
+   "metric": "rolling_sound_emission",
+   "unit": "dB(A)",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 72.0,
+   "limit_conditions": [
+    "Over 185 up to 245"
+   ],
+   "adjustments": [
+    "+1 dB(A) for snow tyres that are classified as tyre for use in severe snow conditions, extra load tyres or reinforced tyres, or any combination of these classifications"
+   ],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S07",
+   "brand": "Bridgestone",
+   "range_name": "Turanza 6",
+   "designation": "225/45 R17 94W XL",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.2:C1:stage-2",
+   "metric": "wet_grip_index",
+   "unit": "G",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": "2024-07-07",
+   "all_from": "2026-07-07",
+   "requirement_change": null,
+   "comparator": ">=",
+   "limit": 1.2,
+   "limit_conditions": [
+    "Normal tyre"
+   ],
+   "adjustments": [],
+   "test_value": 1.31,
+   "test_date": "2025-04-03",
+   "verdict": "pass",
+   "margin": 0.11,
+   "reason": "1.31 >= 1.2 G",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S07",
+   "brand": "Bridgestone",
+   "range_name": "Turanza 6",
+   "designation": "225/45 R17 94W XL",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.3:C1:stage-3",
+   "metric": "rolling_resistance_coefficient",
+   "unit": "N/kN",
+   "stage": "3",
+   "timing": "in_force",
+   "new_from": "2024-07-07",
+   "all_from": "2026-07-07",
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 9.0,
+   "limit_conditions": [
+    "load capacity index ≥ 87",
+    "Tyres other than Run Flat Tyres or Extended Mobility Tyres"
+   ],
+   "adjustments": [],
+   "test_value": 9.3,
+   "test_date": "2025-04-03",
+   "verdict": "fail",
+   "margin": -0.3,
+   "reason": "9.3 <= 9 N/kN NOT met",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S08",
+   "brand": "Bridgestone",
+   "range_name": "Potenza Sport RFT",
+   "designation": "225/45 R18 95Y XL RFT",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.1:C1:stage-2",
+   "metric": "rolling_sound_emission",
+   "unit": "dB(A)",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 72.0,
+   "limit_conditions": [
+    "Over 185 up to 245"
+   ],
+   "adjustments": [
+    "+1 dB(A) for snow tyres that are classified as tyre for use in severe snow conditions, extra load tyres or reinforced tyres, or any combination of these classifications"
+   ],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S08",
+   "brand": "Bridgestone",
+   "range_name": "Potenza Sport RFT",
+   "designation": "225/45 R18 95Y XL RFT",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.2:C1:stage-2",
+   "metric": "wet_grip_index",
+   "unit": "G",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": "2024-07-07",
+   "all_from": "2026-07-07",
+   "requirement_change": null,
+   "comparator": ">=",
+   "limit": 1.2,
+   "limit_conditions": [
+    "Normal tyre"
+   ],
+   "adjustments": [],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S08",
+   "brand": "Bridgestone",
+   "range_name": "Potenza Sport RFT",
+   "designation": "225/45 R18 95Y XL RFT",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.3:C1:stage-3",
+   "metric": "rolling_resistance_coefficient",
+   "unit": "N/kN",
+   "stage": "3",
+   "timing": "in_force",
+   "new_from": "2024-07-07",
+   "all_from": "2026-07-07",
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 10.0,
+   "limit_conditions": [
+    "load capacity index ≥ 87",
+    "Run Flat Tyres or Extended Mobility Tyres"
+   ],
+   "adjustments": [],
+   "test_value": 9.9,
+   "test_date": "2025-05-21",
+   "verdict": "pass",
+   "margin": 0.1,
+   "reason": "9.9 <= 10 N/kN",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S09",
+   "brand": "Bridgestone",
+   "range_name": "Blizzak 6",
+   "designation": "205/55 R16 91H",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.1:C1:stage-2",
+   "metric": "rolling_sound_emission",
+   "unit": "dB(A)",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 72.0,
+   "limit_conditions": [
+    "Over 185 up to 245"
+   ],
+   "adjustments": [
+    "+1 dB(A) for snow tyres that are classified as tyre for use in severe snow conditions, extra load tyres or reinforced tyres, or any combination of these classifications"
+   ],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S09",
+   "brand": "Bridgestone",
+   "range_name": "Blizzak 6",
+   "designation": "205/55 R16 91H",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.2:C1:stage-2",
+   "metric": "wet_grip_index",
+   "unit": "G",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": "2024-07-07",
+   "all_from": "2026-07-07",
+   "requirement_change": null,
+   "comparator": ">=",
+   "limit": 1.1,
+   "limit_conditions": [
+    "Snow tyre that is classified as tyre for use in severe snow conditions",
+    "Speed category greater than 160 km/h"
+   ],
+   "adjustments": [],
+   "test_value": 1.12,
+   "test_date": "2025-01-08",
+   "verdict": "pass",
+   "margin": 0.02,
+   "reason": "1.12 >= 1.1 G",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S09",
+   "brand": "Bridgestone",
+   "range_name": "Blizzak 6",
+   "designation": "205/55 R16 91H",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.3:C1:stage-3",
+   "metric": "rolling_resistance_coefficient",
+   "unit": "N/kN",
+   "stage": "3",
+   "timing": "in_force",
+   "new_from": "2024-07-07",
+   "all_from": "2026-07-07",
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 10.0,
+   "limit_conditions": [
+    "load capacity index ≥ 87",
+    "Tyres other than Run Flat Tyres or Extended Mobility Tyres"
+   ],
+   "adjustments": [
+    "+1 N/kN for snow tyre that is classified as tyre for use in severe snow conditions"
+   ],
+   "test_value": 9.9,
+   "test_date": "2025-01-08",
+   "verdict": "pass",
+   "margin": 0.1,
+   "reason": "9.9 <= 10 N/kN",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S10",
+   "brand": "Bridgestone",
+   "range_name": "Duravis Van",
+   "designation": "195/70 R15C 104/102R",
+   "tyre_class": "C2",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.1:C2:stage-2",
+   "metric": "rolling_sound_emission",
+   "unit": "dB(A)",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 72.0,
+   "limit_conditions": [
+    "Normal tyre",
+    "Other"
+   ],
+   "adjustments": [],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S10",
+   "brand": "Bridgestone",
+   "range_name": "Duravis Van",
+   "designation": "195/70 R15C 104/102R",
+   "tyre_class": "C2",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.2:C2:stage-1",
+   "metric": "wet_grip_index",
+   "unit": "G",
+   "stage": "1",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": ">=",
+   "limit": 0.95,
+   "limit_conditions": [
+    "Normal tyre",
+    "Other"
+   ],
+   "adjustments": [],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S10",
+   "brand": "Bridgestone",
+   "range_name": "Duravis Van",
+   "designation": "195/70 R15C 104/102R",
+   "tyre_class": "C2",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.2:C2:stage-2",
+   "metric": "wet_grip_index",
+   "unit": "G",
+   "stage": "2",
+   "timing": "new_approvals_only",
+   "new_from": "2024-07-07",
+   "all_from": "2028-09-01",
+   "requirement_change": null,
+   "comparator": ">=",
+   "limit": 1.1,
+   "limit_conditions": [
+    "Normal tyre",
+    "Other"
+   ],
+   "adjustments": [],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S10",
+   "brand": "Bridgestone",
+   "range_name": "Duravis Van",
+   "designation": "195/70 R15C 104/102R",
+   "tyre_class": "C2",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.3:C2:stage-2",
+   "metric": "rolling_resistance_coefficient",
+   "unit": "N/kN",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 9.0,
+   "limit_conditions": [],
+   "adjustments": [],
+   "test_value": 8.7,
+   "test_date": "2024-12-01",
+   "verdict": "pass",
+   "margin": 0.3,
+   "reason": "8.7 <= 9 N/kN",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S10",
+   "brand": "Bridgestone",
+   "range_name": "Duravis Van",
+   "designation": "195/70 R15C 104/102R",
+   "tyre_class": "C2",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.3:C2:stage-3",
+   "metric": "rolling_resistance_coefficient",
+   "unit": "N/kN",
+   "stage": "3",
+   "timing": "new_approvals_only",
+   "new_from": "2024-07-07",
+   "all_from": "2028-09-01",
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 8.5,
+   "limit_conditions": [
+    "Tyres other than Traction tyres"
+   ],
+   "adjustments": [],
+   "test_value": 8.7,
+   "test_date": "2024-12-01",
+   "verdict": "fail",
+   "margin": -0.2,
+   "reason": "8.7 <= 8.5 N/kN NOT met",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S11",
+   "brand": "Bridgestone",
+   "range_name": "Duravis R002",
+   "designation": "385/65 R22.5 164K",
+   "tyre_class": "C3",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.1:C3:stage-2",
+   "metric": "rolling_sound_emission",
+   "unit": "dB(A)",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 73.0,
+   "limit_conditions": [
+    "Normal tyre",
+    "Other"
+   ],
+   "adjustments": [],
+   "test_value": 0.074,
+   "test_date": "2025-02-27",
+   "verdict": "incomparable",
+   "margin": null,
+   "reason": "test unit B(A) ≠ requirement unit dB(A)",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S11",
+   "brand": "Bridgestone",
+   "range_name": "Duravis R002",
+   "designation": "385/65 R22.5 164K",
+   "tyre_class": "C3",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.2:C3:stage-1",
+   "metric": "wet_grip_index",
+   "unit": "G",
+   "stage": "1",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": ">=",
+   "limit": 0.8,
+   "limit_conditions": [
+    "Normal tyre",
+    "Other"
+   ],
+   "adjustments": [],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S11",
+   "brand": "Bridgestone",
+   "range_name": "Duravis R002",
+   "designation": "385/65 R22.5 164K",
+   "tyre_class": "C3",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.2:C3:stage-2",
+   "metric": "wet_grip_index",
+   "unit": "G",
+   "stage": "2",
+   "timing": "new_approvals_only",
+   "new_from": "2024-07-07",
+   "all_from": "2028-09-01",
+   "requirement_change": null,
+   "comparator": ">=",
+   "limit": 0.95,
+   "limit_conditions": [
+    "Normal tyre",
+    "Other"
+   ],
+   "adjustments": [],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S11",
+   "brand": "Bridgestone",
+   "range_name": "Duravis R002",
+   "designation": "385/65 R22.5 164K",
+   "tyre_class": "C3",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.3:C3:stage-2",
+   "metric": "rolling_resistance_coefficient",
+   "unit": "N/kN",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 6.5,
+   "limit_conditions": [],
+   "adjustments": [],
+   "test_value": 6.3,
+   "test_date": "2025-02-27",
+   "verdict": "pass",
+   "margin": 0.2,
+   "reason": "6.3 <= 6.5 N/kN",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S11",
+   "brand": "Bridgestone",
+   "range_name": "Duravis R002",
+   "designation": "385/65 R22.5 164K",
+   "tyre_class": "C3",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.3:C3:stage-3",
+   "metric": "rolling_resistance_coefficient",
+   "unit": "N/kN",
+   "stage": "3",
+   "timing": "new_approvals_only",
+   "new_from": "2024-07-07",
+   "all_from": "2028-09-01",
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 6.0,
+   "limit_conditions": [
+    "Tyres other than tyres marked with “C”, “CP” or “LT”"
+   ],
+   "adjustments": [],
+   "test_value": 6.3,
+   "test_date": "2025-02-27",
+   "verdict": "fail",
+   "margin": -0.3,
+   "reason": "6.3 <= 6 N/kN NOT met",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S12",
+   "brand": "Bridgestone",
+   "range_name": "Turanza 6",
+   "designation": "195/65 R15 91",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.1:C1:stage-2",
+   "metric": "rolling_sound_emission",
+   "unit": "dB(A)",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": null,
+   "all_from": null,
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 71.0,
+   "limit_conditions": [
+    "Over 185 up to 245"
+   ],
+   "adjustments": [],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S12",
+   "brand": "Bridgestone",
+   "range_name": "Turanza 6",
+   "designation": "195/65 R15 91",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.2:C1:stage-2",
+   "metric": "wet_grip_index",
+   "unit": "G",
+   "stage": "2",
+   "timing": "in_force",
+   "new_from": "2024-07-07",
+   "all_from": "2026-07-07",
+   "requirement_change": null,
+   "comparator": ">=",
+   "limit": 1.2,
+   "limit_conditions": [
+    "Normal tyre"
+   ],
+   "adjustments": [],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  },
+  {
+   "size_id": "S12",
+   "brand": "Bridgestone",
+   "range_name": "Turanza 6",
+   "designation": "195/65 R15 91",
+   "tyre_class": "C1",
+   "markets": [
+    "EU"
+   ],
+   "requirement_id": "R117:6.3:C1:stage-3",
+   "metric": "rolling_resistance_coefficient",
+   "unit": "N/kN",
+   "stage": "3",
+   "timing": "in_force",
+   "new_from": "2024-07-07",
+   "all_from": "2026-07-07",
+   "requirement_change": null,
+   "comparator": "<=",
+   "limit": 9.0,
+   "limit_conditions": [
+    "load capacity index ≥ 87",
+    "Tyres other than Run Flat Tyres or Extended Mobility Tyres"
+   ],
+   "adjustments": [],
+   "test_value": null,
+   "test_date": null,
+   "verdict": "missing_test",
+   "margin": null,
+   "reason": "no test record for this metric",
+   "reviewer_verdict": null,
+   "reviewer_reason": null
+  }
+ ],
+ "unassessed_ranges": [],
+ "superseded": {
+  "R117:6.2:C1:stage-1": "R117:6.2:C1:stage-2",
+  "R117:6.3:C1:stage-2": "R117:6.3:C1:stage-3"
+ },
+ "summary": {
+  "assessments": 44,
+  "pass": 18,
+  "fail": 3,
+  "unresolved": 23,
+  "not_defined": 0,
+  "accepted_risk": 0,
+  "by_verdict": {
+   "expired_test": 1,
+   "fail": 3,
+   "incomparable": 1,
+   "invalid_test": 1,
+   "missing_test": 20,
+   "pass": 18
+  },
+  "sizes_with_fail": [
+   "S07",
+   "S10",
+   "S11"
+  ]
+ }
+}

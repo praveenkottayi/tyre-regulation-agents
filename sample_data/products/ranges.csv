@@ -1,0 +1,11 @@
+range_id,brand,range_name,tyre_class,category_of_use,severe_snow,ice_grip,traction,run_flat
+MI-PRI5,Michelin,Primacy 5,C1,normal,false,false,false,false
+MI-PS5,Michelin,Pilot Sport 5,C1,normal,false,false,false,false
+MI-CC2,Michelin,CrossClimate 2,C1,snow,true,false,false,false
+MI-AG3,Michelin,Agilis 3,C2,normal,false,false,false,false
+MI-XMZ2,Michelin,X Multi Z2,C3,normal,false,false,false,false
+BS-TUR6,Bridgestone,Turanza 6,C1,normal,false,false,false,false
+BS-POTRFT,Bridgestone,Potenza Sport RFT,C1,normal,false,false,false,true
+BS-BLZ6,Bridgestone,Blizzak 6,C1,snow,true,false,false,false
+BS-DURV,Bridgestone,Duravis Van,C2,normal,false,false,false,false
+BS-R002,Bridgestone,Duravis R002,C3,normal,false,false,false,false

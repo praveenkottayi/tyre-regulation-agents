@@ -1,0 +1,13 @@
+size_id,range_id,designation,section_width_mm,aspect_ratio,rim,load_index,speed_symbol,extra_load,reinforced,c_cp_lt_marking
+S01,MI-PRI5,205/55 R16 91V,205,55,16,91,V,false,false,false
+S02,MI-PRI5,185/65 R15 86H,185,65,15,86,H,false,false,false
+S03,MI-PS5,245/35 ZR20 95Y XL,245,35,20,95,Y,true,false,false
+S04,MI-CC2,205/55 R16 94V XL,205,55,16,94,V,true,false,false
+S05,MI-AG3,215/65 R16C 109/107T,215,65,16,109,T,false,false,true
+S06,MI-XMZ2,315/80 R22.5 156/150L,315,80,22.5,156,L,false,false,false
+S07,BS-TUR6,225/45 R17 94W XL,225,45,17,94,W,true,false,false
+S08,BS-POTRFT,225/45 R18 95Y XL RFT,225,45,18,95,Y,true,false,false
+S09,BS-BLZ6,205/55 R16 91H,205,55,16,91,H,false,false,false
+S10,BS-DURV,195/70 R15C 104/102R,195,70,15,104,R,false,false,true
+S11,BS-R002,385/65 R22.5 164K,385,65,22.5,164,K,false,false,false
+S12,BS-TUR6,195/65 R15 91,195,65,15,91,,false,false,false
